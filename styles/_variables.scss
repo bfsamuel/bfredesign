@@ -1,0 +1,13 @@
+$primary-color:#5091cd;
+$secondary-color:#004990;
+
+/* COLORS */
+$light-blue: #5091cd;
+$dark-blue:#004990;
+$primaryBtn: red;
+
+/* FONT SIZES */
+
+@mixin lightblue {
+    color:$light-blue
+}

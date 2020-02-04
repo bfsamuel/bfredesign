@@ -1,0 +1,39 @@
+/* BUTTONS*/
+.btn {
+    padding: 10px 40px;
+    font-size: 1.1em;
+    border-radius: 0;
+
+}
+
+.btn-primary {
+    background: $light-blue;
+    border: none;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &:hover {
+        background: $dark-blue;
+    }
+}
+
+.btn-donate {
+    background: #D61215;
+    border: 0;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.btn-outline {
+    border: 2px solid $dark-blue;
+    color: $dark-blue;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        background: $dark-blue;
+        color: #fff;
+    }
+}

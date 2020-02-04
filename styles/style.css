@@ -1,0 +1,710 @@
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
+
+p {
+    margin-bottom: 1.25em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.563em;
+    color: #5091cd;
+
+}
+
+h5 {
+    font-size: 1.25em;
+
+}
+
+.highlight {
+    background: #eee;
+    widows: auto;
+}
+
+h1:before,
+h1:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 0px;
+    height: 5px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+    opacity: 0;
+    background-color: #e69500;
+}
+
+#examples .example .underline.underline-1:before,
+#examples .example .underline.underline-1:after {
+    left: 0;
+}
+
+small,
+.text_small {
+    font-size: 0.8em;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+::selection {
+    background: #004990 !important;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #004990;
+    /* Gecko Browsers */
+}
+
+/* BUTTONS*/
+
+.btn-primary {
+    border-radius: 0;
+    background: #5091cd;
+    padding:0.5em 1em;
+    border: none;
+}
+
+/* HEADER */
+header {
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #5091cd;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.btn-donate {
+    background: #D61215;
+    border: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1em 1.7em;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+
+/* NAVIGATION */
+
+
+.megamenu {
+    position: static;
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+nav {
+    color: #000;
+}
+
+.navbar-toggler {
+    border: 0;
+    color: #5091cd;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #004990;
+}
+
+.hero {
+    top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    justify-content: flex-end;
+    background: #000000;
+}
+
+.hero-center {
+    top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    background: #004990;
+}
+
+.hero-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #000000;
+}
+
+.hero-bg-image {
+    position: absolute;
+    width: 100%;
+    background: #000000;
+    opacity: 0.2;
+    height: 100%;
+
+}
+
+.hero-bg-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-body {
+    position: relative;
+    top: 0;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+.heading-section-h1 {
+    color: #5091cd;
+    font-weight: bold;
+}
+
+.filter {
+    margin-bottom: 1rem;
+}
+
+/* CARDS */
+
+.card {
+    border: 0;
+    border-radius: 0;
+    background: #f6f6f6;
+    box-shadow: 0 0 rgba(0, 0, 0, .1);
+    margin: 1em 0;
+}
+
+.card .content {
+    min-height: 6rem;
+    padding: 1em;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #004990;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0;
+    max-height: 400px;
+    /* [1.1] Set it as per your need */
+    overflow: hidden;
+    /* [1.2] Hide the overflowing of child elements */
+}
+
+.card-img img {
+    width: 100%;
+
+    transition: transform .5s ease;
+}
+
+.card-img img:hover {
+    transform: scale(1.2);
+}
+
+.card.news {
+    background: #fff;
+}
+
+.project-catergory {
+    font-weight: medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 1rem 0 0 0;
+    color: #5091cd;
+    bottom: 0;
+}
+
+
+.news-card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444444;
+    font-weight: normal;
+}
+
+select {
+    padding: 0.7rem;
+    border: 2px solid #004990;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    color: #004990;
+    background: #fff;
+}
+
+.page-link {
+    border-radius: 100%;
+    border: 0;
+    background: #eee;
+    margin: 0.5em;
+}
+
+.page-item {
+    border-radius: 100%;
+}
+
+.page-item .active {
+    background: #5091cd;
+    color: #fff;
+    font-weight: bold;
+}
+
+.page-item:first-child .page-link {
+    border-radius: 100%;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 100%;
+}
+
+
+.hero-bg-image {
+    width: 100%;
+}
+
+.news-article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article-heading {
+    color: #004990;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em 0 0 0;
+    font-weight: normal;
+}
+
+.date {
+    color: #5091cd;
+    padding: 0.5em 0;
+}
+
+/* FOOTER */
+
+footer {
+    background: #004990;
+    color: #fff;
+}
+
+.footer-inner {
+    padding: 4em 0;
+
+}
+
+.footer-link {
+    margin-bottom: 0.2rem;
+}
+
+.footer-link-item {
+    color: #fff;
+}
+
+.footer-link-item:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.social {
+    padding: 1em 0;
+}
+
+.social i {
+    padding: 0 0.2em;
+}
+
+
+::selection {
+    color: #fff;
+    background-color: #8167a9;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #8167a9;
+}
+
+
+/* #Navigation
+================================================== */
+
+
+
+.navigation-wrap {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 52px;
+    width: auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-toggler {
+    float: right;
+    border: none;
+    padding-right: 0;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none;
+    position: relative;
+    border-bottom: 1px solid #000;
+    transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after,
+.navbar-light .navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: 2;
+    transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after {
+    top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
+.nav-link {
+    color: #004990 !important;
+    font-weight: 500;
+    transition: all 200ms linear;
+}
+
+.nav-item:hover .nav-link {
+    color: #5091cd !important;
+}
+
+.nav-item.active .nav-link {
+    color: #777 !important;
+}
+
+.nav-link {
+    position: relative;
+    padding: 5px 0 !important;
+    display: inline-block;
+}
+
+.nav-item:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: #5091cd;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.nav-item:hover:after {
+    bottom: 0;
+    opacity: 1;
+}
+
+.nav-item.active:hover:after {
+    opacity: 0;
+}
+
+.nav-item {
+    position: relative;
+    transition: all 200ms linear;
+}
+
+/* #Primary style
+================================================== */
+
+.bg-light {
+    background-color: #fff !important;
+    transition: all 200ms linear;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.over-hide {
+    overflow: hidden;
+}
+
+.nav-item .dropdown-menu {
+    transform: translate3d(0, 10px, 0);
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    display: block;
+    padding: 1em;
+    margin: 0;
+    transition: all 200ms linear;
+}
+
+.nav-item.show .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    max-height: 999px;
+    transform: translate3d(0, 0px, 0);
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    border-radius: 0;
+
+}
+
+.dropdown-menu {
+    padding: 20px !important;
+    margin: 0;
+    color: #212121;
+    background-color: #fcfaff;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    transition: all 200ms linear;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-item {
+    padding: 1em;
+    color: #212121;
+    transition: all 200ms linear;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #fff;
+    background-color: #5091cd;
+}
+
+
+body.dark .dropdown-item {
+    color: #fff;
+}
+
+body.dark .navbar-light .navbar-toggler-icon {
+    border-bottom: 1px solid #fff;
+}
+
+.dark .navbar-light .navbar-toggler-icon:after,
+.dark .navbar-light .navbar-toggler-icon:before {
+    background-color: #fff;
+}
+
+body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
+
+
+.dropdown-toggle[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+    background-color: transparent;
+    box-shadow: none;
+    transition: all 200ms linear;
+}
+
+.dropdown-toggle[aria-expanded="true"]+.dropdown-menu {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+body.dark .nav-item::before {
+    background-color: #fff;
+}
+
+body.dark .dropdown-toggle::after {
+    background-color: #fff;
+}
+
+body.dark .dropdown-menu {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+.nav-link {
+    padding: 0 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header-button {
+    float: right;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .article-heading {
+        color: #004990;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+.outer-div {
+    overflow: hidden;
+
+}
+
+.module {
+    background:
+        linear-gradient(rgba(0, 73, 144, 0.8),
+            rgba(0, 73, 144, 0.8)),
+        url(https://barnabasfund.org/sites/default/files/images/india/201912/india-prime-minister-modi-4x3.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    transition-timing-function: ease-in-out;
+}
+
+.module:hover {
+    transform: scale(1.2);
+    transition: ease-in-out .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.module-2 {
+    background:
+        linear-gradient(rgba(0, 73, 144, 0.8),
+            rgba(0, 73, 144, 0.8)),
+        url(https://barnabasfund.org/sites/default/files/images/cameroon/201912/cameroon-mayosava-map-4x3.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    float: left;
+}
+
+.lr {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+    padding: 0 1em;
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+}
+
+.form-control {
+    padding: 1em;
+    border-radius: 0;
+    background: none;
+}
