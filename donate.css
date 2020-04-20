@@ -1,0 +1,540 @@
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.donate-a {
+  color: #000;
+}
+
+/**** HEADINGS ****/
+
+.donate-h2 {
+  text-transform: uppercase;
+  color: #004990;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0 0 1em 0;
+}
+
+.donate-h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 1em 0;
+}
+
+/**** BUTTONS ****/
+
+.btn-group {
+  width: 100%;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+.btn-pay-by-card {
+  width: 100%;
+  background: #5091cd;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  min-height: 70px;
+  border-radius: 0;
+}
+
+.btn-pay-by-paypal {
+  width: 100%;
+  background: #eee;
+  color: #5091cd;
+  font-weight: bold;
+  min-height: 70px;
+  border-radius: 0;
+}
+
+.btn-proceed {
+  background: #5091cd;
+  border-radius: 0;
+  color: #fff;
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.donate-buttons {
+  margin: 1em 0;
+}
+
+
+.bf-donate:hover {
+  background: #004990;
+  color: #fff;
+}
+
+.btn-payment {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  background: #5091cd;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: bold;
+  border-radius: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  border: 0px;
+  color: #ffffff;
+  padding: 1em;
+}
+
+/* HEADER */
+
+.logo {
+  text-align: center;
+  padding: 1em;
+  margin: 222px
+}
+
+#logo {
+  padding: 1em;
+}
+
+.secure-donation {
+  padding-right: 1em;
+  color: #2e3131;
+  margin: 0;
+}
+
+/**** FORM STYLES ****/
+
+
+
+/**** STEP 1 - DONATE BOX ****/
+
+/* MAIN DONATE BOX */
+
+.donatebox {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 2em 0;
+  border-top: 6px solid #004990;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  margin-top: -5em;
+  background: #ffffff;
+}
+
+.donatebox-h1 {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 1em 0;
+  font-size: 35px;
+}
+
+.donatebox h2 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Donation type (single or regular) */
+
+.donation-type_wrapper {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.donation_type {
+  background: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #5091cd;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0;
+
+}
+
+.donation_type.active {
+  background: #5091cd;
+  border: 2px solid #5091cd;
+  color: #fff;
+}
+
+
+/* Donation amount */
+
+.donation-amount_wrapper {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 0 0 0;
+  width: 100%;
+}
+
+.donation_amount {
+  border: 2px solid #5091cd;
+  padding: 1em;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+  color: #5091cd;
+  border-radius: 0;
+  text-transform: none;
+  background: #fff;
+  width: 100%;
+}
+
+.donation_amount.active {
+  background: #5091cd;
+  border: 2px solid #5091cd;
+  color: #fff;
+}
+
+.amount-hide-radio {
+  visibility: hidden;
+}
+
+.other-amount {
+  border: 2px solid #5091cd;
+  height: 50px;
+  width: 100px;
+  padding: 10px 0 10px 10px;
+}
+
+#otheramount {
+  transition: all 1s ease-in;
+  padding: 1em 0;
+}
+
+.other-amount-text {
+  font-size: 20px;
+}
+
+.other-amount-pound {
+  font-size: 25px;
+  font-weight: bold;
+  color: #004990;
+}
+
+.donation-projectchoice_wrapper {
+  padding: 0;
+}
+
+#anotherDonation {
+  width: auto;
+  text-align: left;
+}
+
+#anotherDonation p {
+  text-align: center;
+  padding: 1em 0;
+  margin: 0;
+}
+
+.add-donation-text {
+  padding: 1em 0;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+select {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0 10px 10px;
+  border: 2px solid #5091cd;
+  height: 50px;
+  font-size: 1em;
+  background: transparent url(https://barnabasfund.org/sites/default/files/images/assets/donate/chevron-down.svg) no-repeat right 10px center;
+  background-size: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.giving-header {
+  background: #eee;
+  padding: 0.5em 0;
+}
+
+.giving-header-amount {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.i-want-give-heading {
+  font-weight: normal;
+  color: #004990;
+  font-size: 1.5em;
+  padding: 2em 0;
+  text-align: center;
+}
+
+#otherDiv {
+  display: none;
+  margin-top: 1em;
+}
+
+/* Donate now button */
+
+
+
+.back-link {
+  font-weight: bold;
+  color: #5091cd;
+  text-decoration: underline;
+}
+
+/**** STEP TWO - DETAILS ****/
+
+.form-field-wrapper {
+  padding-bottom: 10px;
+
+}
+
+.form-field-label {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.form-field-input {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #5091cd;
+  height: 50px;
+  font-weight: normal;
+  font-size: 1em;
+  color: #000;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+a.enter-address {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #004990;
+  cursor: pointer;
+}
+
+.find-address {
+  font-size: 1.3em;
+  padding: 0 1em;
+  background: #5091cd;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+/* Gift aid */
+
+.gift-aid-claim {
+  background: #fff;
+  color: #004990;
+  padding: 1em 1em;
+  font-weight: bold;
+}
+
+.gift-aid-logo {
+  width: 200px;
+}
+
+#giftaid-text-reveal {
+  font-weight: bold;
+}
+
+.donate-checkbox {
+  margin: 0;
+  position: relative;
+}
+
+.pointer a {
+  cursor: pointer;
+}
+
+/* Other ways to give */
+.other-ways-heading {
+  color: #fff;
+  background-color: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.other-ways-icon {
+  width: 1em;
+}
+
+.other-ways-text {
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+.card {
+  border: none;
+}
+
+.tooltip {
+  font-size: 0.7em;
+}
+
+.card-header {
+  background: #004990;
+  color: #fff;
+  margin-bottom: 0.5em;
+  border: none;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* PAYMENT */
+
+.payment-section {
+  background: #004990;
+  padding: 40px;
+  color: #fff;
+}
+
+.direct-debit-info {
+  margin: 2em 0;
+}
+
+/* Hide the browser's default checkbox */
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+/* checkbox */
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 2px solid #004990;
+}
+
+.checkbox-container input:checked~.checkmark {
+  background-color: #004990;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.checkbox-container input:checked~.checkmark:after {
+  display: block;
+}
+
+
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/**** FOOTER ****/
+.donate-footer {
+  background: #eee;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 0.7em;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.stripe-logo {
+  width: 100px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 768px) {
+  .donatebox {
+    border: 1px solid #eee;
+    margin-top: 1em;
+  }
+}
+
+.StripeElement {
+  background-color: white;
+  height: 40px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.thankyou-block {
+  margin: 6em 0;
+}
+
+.invalid-feedback {
+  font-weight: bold;
+}
+
+.custom-select.is-valid,
+.form-control.is-valid,
+.was-validated .custom-select:valid,
+.was-validated .form-control:valid {
+  border-color: #5091cd;
+}
