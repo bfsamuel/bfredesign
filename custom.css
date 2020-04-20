@@ -11126,7 +11126,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.563em;
+  font-size: 1.4em;
   color: #5091cd;
 }
 
@@ -11429,7 +11429,7 @@ figure {
 }
 
 .card .content {
-  min-height: 15em;
+  min-height: 10em;
   padding: 1em;
 }
 
