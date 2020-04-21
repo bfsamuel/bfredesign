@@ -40,14 +40,14 @@
 }
 
 .btn-white {
-    color: $dark-blue;
+    color: $dark-blue !important;
     background-color: #fff;
     font-weight: bold;
     text-transform: uppercase;
 
     &:hover {
         background: none;
-        color: #fff;
+        color: #fff !important;
         border: 2px solid #fff;
 
     }
