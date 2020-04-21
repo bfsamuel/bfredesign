@@ -34,16 +34,23 @@ nav {
     color: #004990;
 }
 
-.header-donate-link {
-    display: block;
-    width: 100%;
-    background: #D61215;
-    color: #fff;
+.donate-button {
+    background: #ffffff !important;
+    font-size: 15px;
     text-align: center;
-    padding: 0.8em 0;
-    font-weight: bold;
-    text-transform: uppercase;
+    min-width: 7rem;
+    border-radius: 0 !important;
+    border: 1px solid #D61215 !important;
+    color: #000;
+    padding: 5px;
+}
+.donate-button .dropdown-item {
+    color:#000;
+    border-bottom: 1px solid #fff;
 
+}
+.donate-button .dropdown-item:last-child {
+    border-bottom: 0px;
 }
 
 /* #Navigation
