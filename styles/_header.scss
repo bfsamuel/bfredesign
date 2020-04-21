@@ -9,7 +9,7 @@
 }
 
 .header-logo {
-    width: 10em;
+    width: 8em;
 }
 
 /* NAVIGATION */
@@ -228,8 +228,6 @@ nav {
     box-shadow: none;
     transition: all 200ms linear;
 }
-
-.dropdown-toggle[aria-expanded="true"]+.dropdown-menu {}
 
 
 .nav-link {

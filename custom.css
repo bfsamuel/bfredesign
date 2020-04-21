@@ -10834,7 +10834,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header-logo {
-  width: 10em;
+  width: 8em;
 }
 
 /* NAVIGATION */
@@ -11300,7 +11300,7 @@ figure {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  min-height: 500px;
+  min-height: 550px;
   height: 100%;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -11319,8 +11319,8 @@ figure {
 .hero-home .heading-section-home-h1 {
   color: #fff;
   font-weight: bold;
-  text-shadow: 2px 2px 11px rgba(150, 150, 150, 0.7);
   padding-bottom: 0.5em;
+  text-shadow: 2px 2px 11px rgba(150, 150, 150, 0.7);
 }
 
 .hero-single {
